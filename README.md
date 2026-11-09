@@ -4,8 +4,9 @@ Demo m30ml project for modeling 3D printer slicer presets for recycled PET (rPET
 
 ## Requirements
 
-- npm
+- git
 - gradle
+- npm
 
 ## Using project from cloned repo
 
