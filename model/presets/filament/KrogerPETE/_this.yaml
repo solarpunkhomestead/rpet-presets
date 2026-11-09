@@ -1,0 +1,19 @@
+fan_max_speed: ((fan_max_speed.yaml))
+filament_extruder_variant: ((filament_extruder_variant.yaml))
+filament_flow_ratio: ((filament_flow_ratio.yaml))
+filament_retraction_length: ((filament_retraction_length.yaml))
+filament_retraction_speed: ((filament_retraction_speed.yaml))
+filament_settings_id: ((filament_settings_id.yaml))
+filament_type: ((filament_type.yaml))
+filament_z_hop: ((filament_z_hop.yaml))
+filament_z_hop_types: ((filament_z_hop_types.yaml))
+from: User
+full_fan_speed_layer: ((full_fan_speed_layer.yaml))
+hot_plate_temp: ((hot_plate_temp.yaml))
+hot_plate_temp_initial_layer: ((hot_plate_temp_initial_layer.yaml))
+inherits: Generic PETG @Prusa
+name: KrogerPETE
+nozzle_temperature: ((nozzle_temperature.yaml))
+nozzle_temperature_initial_layer: ((nozzle_temperature_initial_layer.yaml))
+overhang_fan_speed: ((overhang_fan_speed.yaml))
+version: 2.4.0.18

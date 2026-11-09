@@ -1,0 +1,30 @@
+bottom_surface_pattern: alignedrectilinear
+bridge_speed: ((bridge_speed.yaml))
+brim_type: outer_only
+from: User
+gap_infill_speed: ((gap_infill_speed.yaml))
+infill_direction: '0'
+inherits: 0.20mm Standard
+initial_layer_infill_speed: ((initial_layer_infill_speed.yaml))
+initial_layer_speed: ((initial_layer_speed.yaml))
+inner_wall_speed: ((inner_wall_speed.yaml))
+internal_solid_infill_pattern: alignedrectilinear
+internal_solid_infill_speed: ((internal_solid_infill_speed.yaml))
+name: 0.20mm Standard - AlignedRectilinear
+outer_wall_speed: ((outer_wall_speed.yaml))
+overhang_1_4_speed: ((overhang_1_4_speed.yaml))
+overhang_2_4_speed: ((overhang_2_4_speed.yaml))
+overhang_3_4_speed: ((overhang_3_4_speed.yaml))
+overhang_4_4_speed: ((overhang_4_4_speed.yaml))
+print_extruder_id: ((print_extruder_id.yaml))
+print_extruder_variant: ((print_extruder_variant.yaml))
+print_settings_id: 0.20mm Standard - AlignedRectilinear
+solid_infill_direction: '0'
+sparse_infill_density: 100%
+sparse_infill_pattern: alignedrectilinear
+sparse_infill_speed: ((sparse_infill_speed.yaml))
+top_shell_layers: '0'
+top_surface_pattern: alignedrectilinear
+top_surface_speed: ((top_surface_speed.yaml))
+version: 2.4.0.18
+wall_loops: '4'
