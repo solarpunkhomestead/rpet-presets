@@ -24,7 +24,8 @@
   },
   "scripts": {
     "build": "npm run clean && ./gradlew --offline build",
+    "tree": "./gradlew generateBuildTree",
     "clean": "./gradlew --offline clean",
-    "readme": "nunjucks -d package.json views/README.md.njk > README.md"
+    "readme": "nunjucks -d package.json views/README.md.njk > .readme.md && markedpp .readme.md > README.md && rm .readme.md"
   }
 }

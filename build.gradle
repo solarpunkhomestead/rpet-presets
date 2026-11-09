@@ -14,6 +14,7 @@ plugins {
 def rootElementDirName = "model"
 def modelPresetsSrcDirPath = "$projectDir/$rootElementDirName/presets"
 def orcaslicerPresetsBuildDirPath = "$buildDir/orcaslicer"
+def treeBuildFilePath = "$buildDir/.buildTree"
 def yamlExtension = ".yaml"
 def jsonExtension = ".json"
 
@@ -30,6 +31,14 @@ tasks.register('buildOrcaSlicerPresets') {
             }
         }
     }
+}
+
+tasks.register('generateBuildTree', Exec) {
+    dependsOn(buildOrcaSlicerPresets)
+    inputs.files(fileTree("$buildDir"))
+    .withPathSensitivity(PathSensitivity.ABSOLUTE)
+    outputs.dir(layout.buildDirectory.dir("$buildDir"))
+    commandLine "bash", "-c", "tree build --noreport -o $treeBuildFilePath"
 }
 
 tasks.named('assemble') {
