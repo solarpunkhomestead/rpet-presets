@@ -8,7 +8,7 @@ Demo m30ml project for modeling 3D printer slicer presets for recycled PET (rPET
 - gradle
 - npm
 
-## Using project from cloned repo
+## Building project from cloned repo
 
 ### Clone and `cd` into repo
 
@@ -28,3 +28,17 @@ npm i
 ```bash
 npm run build
 ```
+
+This will generate the following presets in the `build/` directory:
+
+<!-- include (build/.buildTree lang=txt) -->
+```txt
+build
+└── orcaslicer
+    ├── filament
+    │   └── KrogerPETE.json
+    └── process
+        └── AlignedRectilinear.json
+```
+<!-- /include -->
+
