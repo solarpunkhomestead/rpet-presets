@@ -38,7 +38,7 @@ build
     ├── filament
     │   └── KrogerPETE.json
     └── process
-        └── AlignedRectilinear.json
+        └── PrusaMINIAlignedRectilinear.json
 ```
 <!-- /include -->
 
