@@ -1,7 +1,7 @@
 {
   "name": "rpet-presets",
   "version": "0.0.0",
-  "description": "rPET presets",
+  "description": "Demo m30ml project for modeling 3D printer slicer presets for recycled PET (rPET)",
   "author": "Sean Marquez",
   "license": "CC0-1.0",
   "packageManager": "npm",
