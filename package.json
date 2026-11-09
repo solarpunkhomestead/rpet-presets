@@ -5,6 +5,10 @@
   "author": "Sean Marquez",
   "license": "CC0-1.0",
   "packageManager": "npm",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/solarpunkhomestead/rpet-presets.git"
+  },
   "workspaces": [
     "./packages/*",
     "./packages/@*/*"
